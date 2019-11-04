@@ -1,0 +1,16 @@
+#display{
+  min-width: 100%;
+  min-height: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+}
+
+.mainDisplayer {
+  font-size: 2rem;
+}
+
+.minorDisplayer {
+  color: 	#fbfbac;
+  font-size: 1.5rem;
+}

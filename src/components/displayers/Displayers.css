@@ -1,0 +1,7 @@
+#displayers{
+  font-family: 'VT323', monospace;
+  grid-row: 1/2;
+  grid-column: 1/5;
+  background-color: #262626;
+  color: white;
+}

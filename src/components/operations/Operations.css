@@ -1,0 +1,18 @@
+.operations{
+  grid-row: 2/5;
+  grid-column: 3/5;
+  z-index: 0;
+  background-color: #b3b3b3;
+  border: #808080 .5px solid;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.plusContainer {
+  flex-basis: 100%;
+  height: 99%;
+  min-width: 49.9%;
+  display: flex;
+  flex-wrap: wrap;
+}
