@@ -6,8 +6,8 @@ import './Displayers.css';
 function Displayers(props) {
   return (
     <div id="displayers">
-      <Display clicked={props.operation} nameToClass="minorDisplayer" />
-      <Display clicked={props.buffer} nameToClass="mainDisplayer" />
+      <Display clicked={props.operation} nameToClass="minorDisplayer" toId="minorDisplay" />
+      <Display clicked={props.buffer} nameToClass="mainDisplayer" toId="display" />
     </div>
   );
 }

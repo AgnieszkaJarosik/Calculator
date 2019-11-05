@@ -14,7 +14,7 @@ function Operations(props) {
                             index={operation.index}
                             key={id}
                             clickHandler={props.clickHandler} />
-                  <div className="operation">:)</div>
+                  <div className="operation"></div>
                 </div>
         } else {
           return <Operation id={operation.id}
@@ -25,7 +25,7 @@ function Operations(props) {
         }
       })}
     </div>
-  );
+  )
 }
 
 export default Operations;
